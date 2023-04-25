@@ -6,4 +6,4 @@
 <img width="1388" alt="image" src="https://user-images.githubusercontent.com/30076203/231128303-5d331ba4-ab1e-4c6a-91a4-fbcbd4ad4353.png">
 
 # 访问地址
-https://wh-gjj.svenshen.com
+https://wuhu-gjj.svenshen.com
