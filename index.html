@@ -142,7 +142,7 @@ font-size: 16px;
 </div>
 <div id="formula2">
 	<h2>具体计算公式</h2>
-	<p>a 和 b公式取最低值，且最高值不超过55万</p>
+	<p>a 和 b公式取最低值，且最高值不超过70万 新政:<a href="https://gjj.wuhu.gov.cn/openness/public/6596901/38251501.html">关于调整住房公积金贷款最高额度政策的通知</a></p>
 	<p>a：借款人夫妻双方缴存基数之和×12个月×还款能力系数×可贷年限。</p>
 	<p>b：借款人公积金账户缴存余额×缴存时间倍数+借款人配偶公积金账户缴存余额×缴存时间倍数。</p>
 	<h2>指标说明</h2>
@@ -174,7 +174,7 @@ font-size: 16px;
 		var b = Math.max(balance1,10000) * multiplier1 + Math.max(balance2,10000) * multiplier2;
 
 		// 取a和b的低值，且最高值不超过55万
-		var result = Math.min(a, b, 550000);
+		var result = Math.min(a, b, 700000);
 
 		// 显示结果
 		document.getElementById("result").value = result;
