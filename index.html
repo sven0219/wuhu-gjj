@@ -87,7 +87,9 @@ font-size: 16px;
 </head>
 <body>
 <h1>芜湖公积金贷款额度(夫妻双方)计算器</h1>
-<h4>[更新至2023年7月，后续如有政策更新可能计算额度不准]</h4>
+<h4>[更新至2023年5月，后续如有政策更新可能计算额度不准]</h4>
+<h4>[后续政策更新]</h4>
+<h4><a href="https://gjj.wuhu.gov.cn/zcfg/zcfg/8536077.html">关于进一步完善住房公积金贷款政策的通知</a></h4>
 <div id="formula1">
 <table>
 <thead>
@@ -179,7 +181,7 @@ font-size: 16px;
 		var a = base * 12 * 0.5 * years;
 		var b = Math.max(balance1,10000) * multiplier1 + Math.max(balance2,10000) * multiplier2;
 
-		// 取a和b的低值，且最高值不超过55万
+		// 取a和b的低值，且最高值不超过70万
 		var result = Math.min(a, b, 700000);
 
 		// 显示结果
